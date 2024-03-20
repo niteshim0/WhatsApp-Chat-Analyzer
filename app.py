@@ -138,3 +138,10 @@ if uploaded_file is not None:
         fig, ax = plt.subplots()
         ax = sns.heatmap(user_heatmap, cmap='Paired')
         st.pyplot(fig)
+
+        st.title("Wordcloud")
+        df_wc = helper.create_wordcloud(selected_user, df)
+        fig, ax = plt.subplots()
+        ax.imshow(df_wc)
+        st.pyplot(fig)
+        st.text('by-Nitesh Kushwaha')
