@@ -514,7 +514,7 @@ st.markdown("""
             <p style='font-size: 16px; color: #fff; margin-top: 5px;'>Nitesh Kushwaha<br>(2020021086)</p>
         </div>
         <div style='text-align: center;'>
-            <p style='font-size: 16px; color: #fff; margin-top: 5px;'>Kaushal Raj<br>(2020021066)</p>
+            <p style='font-size: 16px; color: #fff; margin-top: 5px;'>Kaushal Raj<br>(2020021068)</p>
         </div>
     </div>
 """, unsafe_allow_html=True)
