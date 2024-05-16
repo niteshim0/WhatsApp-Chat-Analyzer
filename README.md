@@ -9,6 +9,7 @@ Welcome to the WhatsApp Chat Analyzer! This project provides tools to analyze an
 - **Visualization:** Visualize chat data through graphs, word clouds, and other visualizations to gain insights.
 - **Interactive Analysis:** Interactively explore your chat data with customizable filters and options.
 - **Export:** Export analyzed data and visualizations for further analysis or sharing.
+- **Sentiment Analysis:** Employing `vader` of `nltk` libray one could know different things about positive , negative and neutral things.
 
 ## Getting Started
 
