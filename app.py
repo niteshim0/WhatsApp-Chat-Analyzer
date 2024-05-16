@@ -496,7 +496,7 @@ if uploaded_file is not None:
             except:
                 # Disply error image
                 st.image('error.webp')
-        st.markdown("<p style='font-size: 16px; color: #555; text-align: center;'>"
+st.markdown("<p style='font-size: 16px; color: #555; text-align: center;'>"
             "- by Team Project No A17 under the guidance of "
             "<strong>Ms. Meenu</strong>, Associate Professor, Department of Computer Science and Engineering, MMMUT Gorakhpur."
             "</p>", unsafe_allow_html=True)
