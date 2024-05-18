@@ -496,28 +496,6 @@ if uploaded_file is not None:
             except:
                 # Disply error image
                 st.image('error.webp')
-st.markdown("<p style='font-size: 16px; color: #555; text-align: center;'>"
-            "- by Team Project No A17 under the guidance of "
-            "<strong>Ms. Meenu</strong>, Associate Professor, Department of Computer Science and Engineering, MMMUT Gorakhpur."
-            "</p>", unsafe_allow_html=True)
-
-st.markdown("<p style='font-size: 16px; color: #555; text-align: center;'>"
-            "Assigned Internal Examiner: <strong>Dr. Udai Shankar</strong>, Professor, HOD, Department of Computer Science and Engineering, MMMUT Gorakhpur."
-            "</p>", unsafe_allow_html=True)
-
-st.markdown("""
-    <div style='display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 20px;'>
-        <div style='text-align: center;'>
-            <p style='font-size: 16px; color: #fff; margin-top: 5px;'>Ankit Yadav<br>(Team Lead, 2020021027)</p>
-        </div>
-        <div style='text-align: center;'>
-            <p style='font-size: 16px; color: #fff; margin-top: 5px;'>Nitesh Kushwaha<br>(2020021086)</p>
-        </div>
-        <div style='text-align: center;'>
-            <p style='font-size: 16px; color: #fff; margin-top: 5px;'>Kaushal Raj<br>(2020021068)</p>
-        </div>
-    </div>
-""", unsafe_allow_html=True)
 
 
 
